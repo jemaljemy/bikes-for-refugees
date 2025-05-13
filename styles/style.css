@@ -63,10 +63,13 @@ p {
 .navigation__list {
   display: flex;
   list-style: none;
+
 }
 
 .navigation__item {
   padding: 0.5rem 0;
+  margin-right: 20px;
+  
 }
 
 .navigation__link {
@@ -74,6 +77,8 @@ p {
   font-weight: 600;
   text-transform: uppercase;
   text-decoration: none;
+
+
 }
 
 
@@ -95,8 +100,16 @@ p {
 
 /* Buttons */
 
-  /* INSERT BUTTON STYLES HERE */
+.button {
+  color: var(--white);
+  background-color : var(--orange-dark)
+}
 
+.button1 {
+    background-color: var(--white);
+  color :var(--orange-dark) ;
+  
+}
 
 /* Content */
 
