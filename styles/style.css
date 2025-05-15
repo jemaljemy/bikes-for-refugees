@@ -65,6 +65,9 @@ p {
   list-style: none;
 
 }
+.navigation__list:hover {
+  background-color: var(--orange-light);
+}
 
 .navigation__item {
   padding: 0.5rem 0;
@@ -77,10 +80,10 @@ p {
   font-weight: 600;
   text-transform: uppercase;
   text-decoration: none;
-
-
 }
-
+.navigation__link:hover {
+  color : orange
+}
 
 /* Text styles */
 
@@ -164,6 +167,7 @@ p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
 }
+
 .button3 {
   position :absolute;
   top : 70%;
